@@ -1,0 +1,5 @@
+<form>
+    <div><input type="text" [(ngModel)]="bookAuthor" [ngModelOptions]="{standalone: true}" /></div>
+    <div><input type="text" [(ngModel)]="bookTitle" [ngModelOptions]="{standalone: true}"/></div>
+</form>
+<button (click)="update()">Update</button>
